@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio ABC</title>
+</head>
+<body>
+    <script>
+        var a = 10
+        var b = 20
+        var c = null
+
+        document.write('<h1>Valor Antes</h1>')
+        document.write('Valor de A: ' + a)
+        document.write('<br>Valor de A: ' + b)
+        document.write('<br>Valor de A: ' + c)
+
+        c=b
+        b=a
+        a=c
+        c=null
+
+        document.write('<h1>Valor depois</h1>')
+
+        document.write('Valor de A: ' + a)
+        document.write('<br>Valor de A: ' + b)
+        document.write('<br>Valor de A: ' + c)
+
+    </script>
+</body>
+</html>

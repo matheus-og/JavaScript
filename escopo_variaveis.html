@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escopo Variáveis</title>
+</head>
+<body>
+    <script>
+        
+        //3 escopos: global, função e bloco
+
+        var serie = 'Friends'
+
+        if (true) {
+            var serie3 = 'Modern Family' //essa varaivel está em escopo de bloco (blocos são comandos tipo ifelse, switch e tals ) e pode ser usado de maneira global
+            document.write(serie )
+        }
+
+        function funcaoTeste()
+        {
+            var serie2 = 'How I Met Your Mother' // essa variável só pode ser usado no escopo dessa função
+        }
+
+    </script>
+</body>
+</html>
